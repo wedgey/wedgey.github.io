@@ -1,0 +1,101 @@
+header {
+  background-image: url("../assets/images/road-street-blur-blurred.jpg");
+  background-size: cover;
+  background-position: center center;
+  padding-top: 10vh;
+  padding-bottom: 20px;
+}
+
+header div.details {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+header div.details * {
+  color: white;
+  text-shadow: 1px 1px 0 black, 1px -1px 0 black, -1px 1px 0 black;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+header i {
+  color: white;
+  font-size: 50px;
+  margin: 0 10px;
+}
+
+header i:hover {
+  color: black;
+}
+
+header img {
+  border-radius: 200px;
+}
+
+main {
+  padding: 15px 0;
+}
+
+main div.thumbnail:hover {
+  background-color: #e0e0e0;
+}
+
+main div.page-header {
+  margin-top: 0;
+}
+
+.nav-tabs > li, .nav-pills > li {
+    float:none;
+    display:inline-block;
+    *display:inline; /* ie7 fix */
+     zoom:1; /* hasLayout ie7 trigger */
+}
+
+.nav-tabs, .nav-pills {
+    text-align:center;
+}
+
+div.tab-content div.tab-pane {
+  padding-top: 20px;
+}
+
+p.tab-header {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+#contact div.form-container {
+  background-color: #f7f7eb;
+  border-radius: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border: 1px solid lightblue;
+  border-top: 5px solid lightblue;
+}
+
+#contact input {
+  margin: 5px 0;
+}
+
+#contact input[type=submit] {
+  background-color: #5bd4fb;
+  margin-bottom: 10px;
+  color: white;
+  font-weight: 400;
+}
+
+#contact input[type=submit]:hover {
+  background-color: #1e8db1;
+}
+
+#profile {
+  font-size: 15px;
+}
+
+#profile a {
+  text-decoration: none;
+}
+
+#profile span.connect-text {
+  color: #c5c5c5;
+}
